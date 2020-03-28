@@ -8,7 +8,7 @@ const UserItem = ({user: {login, avatar_url, html_url}}) => {
       <h3>{login}</h3>
 
       <div>
-        <a href={html_url} className="btn btn-dark btn-sm my-1">Profile</a>
+        <a href={html_url} className="btn btn-dark btn-sm my-1" rel="noopener noreferrer" target="_blank">Profile</a>
       </div>
     </div>
   )
